@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gruppenanmeldung>
+	<Gruppe g_id=1>
+		<Gruppenleiter>
+			<Vorname>Fadli</Vorname>
+			<Nachname>Sami</Nachname>
+			<Email>sami.f@web.de</Email>
+			<Geburtsdatum>12.05.1992</Geburtsdatum>
+			<Erfahrung>Amateur</Erfahrung>
+			<Schlagzeug>nicht vorhanden</Schlagzeug>
+			<Anmerkungen>BlaBla</Anmerkungen>
+		</Gruppenleiter>	
+		<Person p_id=1>
+			<Vorname>Meißner</Vorname>
+			<Nachname>Simon</Nachname>
+			<Email>simonito111@web.de</Email>
+			<Geburtsdatum>25.06.1993</Geburtsdatum>
+			<Erfahrung>Amateur</Erfahrung>
+			<Schlagzeug>nicht vorhanden</Schlagzeug>
+		</Person>
+	</Gruppe>
+</Gruppenanmeldung>

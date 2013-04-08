@@ -1,0 +1,25 @@
+{
+    gruppenanmeldung:{
+        gruppe:{
+            g_id:1,
+            gruppenleiter:{
+                vorname:'Fadli',
+                nachname:'Sami',
+                email:'sami.f@web.de',
+                geburtsdatum:'12.05.1992',
+                erfahrung:'Amateur',
+                schlagzeug:'nicht vorhanden',
+                anmerkungen:'BlaBla'
+            },
+            person:{
+                p_id:1,
+                vorname:'Meiﬂner',
+                nachname:'Simon',
+                email:'simonito111@web.de',
+                geburtsdatum:'25.06.1993',
+                erfahrung:'Amateur',
+                schlagzeug:'nicht vorhanden'
+            }
+        }
+    }
+}
