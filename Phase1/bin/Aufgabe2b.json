@@ -6,7 +6,11 @@
                 vorname:'Fadli',
                 nachname:'Sami',
                 email:'sami.f@web.de',
-                geburtsdatum:'12.05.1992',
+                geburtsdatum:{
+                    tag:12,
+                    monat:5,
+                    jahr:1992
+                },
                 erfahrung:'Amateur',
                 schlagzeug:'nicht vorhanden',
                 anmerkungen:'BlaBla'
@@ -16,7 +20,11 @@
                 vorname:'Meiﬂner',
                 nachname:'Simon',
                 email:'simonito111@web.de',
-                geburtsdatum:'25.06.1993',
+                geburtsdatum:{
+                    tag:25,
+                    monat:6,
+                    jahr:1993
+                },
                 erfahrung:'Amateur',
                 schlagzeug:'nicht vorhanden'
             }

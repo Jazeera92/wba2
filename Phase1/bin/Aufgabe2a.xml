@@ -5,7 +5,11 @@
 			<Vorname>Fadli</Vorname>
 			<Nachname>Sami</Nachname>
 			<Email>sami.f@web.de</Email>
-			<Geburtsdatum>12.05.1992</Geburtsdatum>
+			<Geburtsdatum>
+				<Tag>12</Tag>
+				<Monat>05</Monat>
+				<Jahr>1992</Jahr>
+			</Geburtsdatum>
 			<Erfahrung>Amateur</Erfahrung>
 			<Schlagzeug>nicht vorhanden</Schlagzeug>
 			<Anmerkungen>BlaBla</Anmerkungen>
@@ -14,7 +18,11 @@
 			<Vorname>Meißner</Vorname>
 			<Nachname>Simon</Nachname>
 			<Email>simonito111@web.de</Email>
-			<Geburtsdatum>25.06.1993</Geburtsdatum>
+			<Geburtsdatum>
+				<Tag>25</Tag>
+				<Monat>06</Monat>
+				<Jahr>1993</Jahr>
+			</Geburtsdatum>
 			<Erfahrung>Amateur</Erfahrung>
 			<Schlagzeug>nicht vorhanden</Schlagzeug>
 		</Person>
