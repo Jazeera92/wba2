@@ -3,7 +3,7 @@
 	<Rezept>
 		<Titel>Lenchen’s Schokoladenkuchen</Titel>
 		<Bild>kuchen.png</Bild>
-		<Zutaten portion_id=16>
+		<Zutaten portion_id="16">
 			<Zutat>
 				<Menge>200</Menge>
 				<Einheit>g</Einheit>

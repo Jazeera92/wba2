@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Gruppenanmeldung>
-	<Gruppe g_id=1>
+	<Gruppe g_id="1">
 		<Gruppenleiter>
 			<Vorname>Fadli</Vorname>
 			<Nachname>Sami</Nachname>
@@ -14,7 +14,7 @@
 			<Schlagzeug>nicht vorhanden</Schlagzeug>
 			<Anmerkungen>BlaBla</Anmerkungen>
 		</Gruppenleiter>	
-		<Person p_id=1>
+		<Person p_id="1">
 			<Vorname>Meißner</Vorname>
 			<Nachname>Simon</Nachname>
 			<Email>simonito111@web.de</Email>
