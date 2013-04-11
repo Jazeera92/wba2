@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Rezepte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Rezept">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Titel"/>
+              <xs:element type="xs:string" name="Beschreibung"/>
+              <xs:element name="Bilder">
+                <xs:complexType>
+                  <xs:sequence>
+                  	<xs:element name="Bild" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                      	<xs:sequence>
+                    		<xs:element type="xs:byte" name="Nummer"/>
+                    		<xs:element type="xs:string" name="Quelle"/>
+                    		<xs:element type="xs:string" name="Titel"/>
+                    	</xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Zutaten">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Zutat" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Menge"/>
+                          <xs:element type="xs:string" name="Einheit"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="portion_id"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Zubereitung">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Arbeitszeit">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Einheit"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Schwierigkeitsgrad"/>
+                    <xs:element name="Brennwert">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Einheit"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Text"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Kommentare">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Titel"/>
+                    <xs:element name="Kommentar">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Nutzer"/>
+                          <xs:element type="xs:string" name="Avatar"/>
+                          <xs:element name="Zeitstempel">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="Tag"/>
+                                <xs:element type="xs:byte" name="Monat"/>
+                                <xs:element type="xs:short" name="Jahr"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="Text"/>
+                          <xs:element type="xs:string" name="Hilfreich"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
