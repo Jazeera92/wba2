@@ -2,6 +2,7 @@
 <Rezepte>
 	<Rezept>
 		<Titel>Lenchen’s Schokoladenkuchen</Titel>
+		<Beschreibung></Beschreibung>
 		<Bild>kuchen.png</Bild>
 		<Zutaten portion_id="16">
 			<Zutat>

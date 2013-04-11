@@ -2,9 +2,9 @@
 <Gruppenanmeldung>
 	<Gruppe g_id="1">
 		<Gruppenleiter>
-			<Vorname>Fadli</Vorname>
-			<Nachname>Sami</Nachname>
-			<Email>sami.f@web.de</Email>
+			<Vorname>Mustermann</Vorname>
+			<Nachname>Max</Nachname>
+			<Email>mmustermann@web.de</Email>
 			<Geburtsdatum>
 				<Tag>12</Tag>
 				<Monat>05</Monat>
@@ -15,9 +15,9 @@
 			<Anmerkungen>BlaBla</Anmerkungen>
 		</Gruppenleiter>	
 		<Person p_id="1">
-			<Vorname>Meißner</Vorname>
-			<Nachname>Simon</Nachname>
-			<Email>simonito111@web.de</Email>
+			<Vorname>Peter</Vorname>
+			<Nachname>Hans</Nachname>
+			<Email>hpeter@web.de</Email>
 			<Geburtsdatum>
 				<Tag>25</Tag>
 				<Monat>06</Monat>

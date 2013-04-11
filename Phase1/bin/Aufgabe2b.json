@@ -3,9 +3,9 @@
         gruppe:{
             g_id:1,
             gruppenleiter:{
-                vorname:'Fadli',
-                nachname:'Sami',
-                email:'sami.f@web.de',
+                vorname:'Mustermann',
+                nachname:'Max',
+                email:'mmustermann@web.de',
                 geburtsdatum:{
                     tag:12,
                     monat:5,
@@ -17,9 +17,9 @@
             },
             person:{
                 p_id:1,
-                vorname:'Meiﬂner',
-                nachname:'Simon',
-                email:'simonito111@web.de',
+                vorname:'Peter',
+                nachname:'Hans',
+                email:'hpeter@web.de',
                 geburtsdatum:{
                     tag:25,
                     monat:6,
