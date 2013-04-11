@@ -3,9 +3,9 @@
 	<Rezept>
 		<Titel>Lenchen’s Schokoladenkuchen</Titel>
 		<Beschreibung></Beschreibung>
-		<Bilder>
+		<Bilder b_id="1">
                	<Nummer>1</Nummer> 
-               	<Bild>kuchen.png</Bild>
+               	<Bild>img/kuchen.png</Bild>
                 <Titel>Foto von mrsasterix</Titel>
         </Bilder>
 		<Zutaten portion_id="16">
