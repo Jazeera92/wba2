@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3c.xsd">
+  <Rezept>
+    <Titel>Nußecken</Titel>
+    <Beschreibung>str1234</Beschreibung>
+    <Bilder>
+      <Bild>
+        <Nummer>150</Nummer>
+        <Quelle>img/cake.jpg</Quelle>
+        <Titel>Foto von Schokoliebe </Titel>
+      </Bild>
+    </Bilder>
+    <Zutaten portion_id="32">
+      <Zutat>
+        <Menge>130</Menge>
+        <Einheit>g</Einheit>
+        <Name>Butter oder Margarine</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>130</Menge>
+        <Einheit>g</Einheit>
+        <Name>Zucker</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>2</Menge>
+        <Einheit></Einheit>
+        <Name>Eier</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>1</Menge>
+        <Einheit>TL</Einheit>
+        <Name>Backpulver</Name>
+      </Zutat>
+      <Zutat>
+        <Menge></Menge>
+        <Einheit></Einheit>
+        <Name>Für den Belag</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>4</Menge>
+        <Einheit>EL</Einheit>
+        <Name>Aprokosenkonfitüre</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>200</Menge>
+        <Einheit>g</Einheit>
+        <Name>Butter oder Margarine</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>200</Menge>
+        <Einheit>g</Einheit>
+        <Name>Zucker</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>2</Menge>
+        <Einheit>Pkt.</Einheit>
+        <Name>Vanillezucker</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>200</Menge>
+        <Einheit>g</Einheit>
+        <Name>Haselnüsse,gemahlen</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>200</Menge>
+        <Einheit>g</Einheit>
+        <Name>Haselnüsse,gehackt</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>4</Menge>
+        <Einheit>EL</Einheit>
+        <Name>Wasser</Name>
+      </Zutat>
+      <Zutat>
+        <Menge></Menge>
+        <Einheit></Einheit>
+        <Name>Kuchenglasur, Schokolade</Name>
+      </Zutat>
+    </Zutaten>
+    <Zubereitung>
+      <Arbeitszeit>
+        <Einheit>str1234</Einheit>
+      </Arbeitszeit>
+      <Schwierigkeitsgrad>str1234</Schwierigkeitsgrad>
+      <Brennwert>
+        <Einheit>str1234</Einheit>
+      </Brennwert>
+      <Text>str1234</Text>
+    </Zubereitung>
+    <Kommentare>
+      <Titel>str1234</Titel>
+      <Kommentar>
+        <Nutzer>str1234</Nutzer>
+        <Avatar>str1234</Avatar>
+        <Zeitstempel>
+          <Tag>12</Tag>
+          <Monat>12</Monat>
+          <Jahr>2012</Jahr>
+        </Zeitstempel>
+        <Text>str1234</Text>
+        <Hilfreich>str1234</Hilfreich>
+      </Kommentar>
+    </Kommentare>
+  </Rezept>
+</Rezepte>

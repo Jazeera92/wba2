@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3c.xsd">
+  <Rezept>
+    <Titel>Titel</Titel>
+    <Beschreibung>Beschreibung</Beschreibung>
+    <Bilder>
+      <Bild>
+        <Nummer>0</Nummer>
+        <Quelle>Quelle</Quelle>
+        <Titel>Titel</Titel>
+      </Bild>
+    </Bilder>
+    <Zutaten portion_id="0">
+      <Zutat>
+        <Menge>100</Menge>
+        <Einheit>Einheit</Einheit>
+        <Name>Name</Name>
+      </Zutat>
+    </Zutaten>
+    <Zubereitung>
+      <Arbeitszeit>
+        <Einheit>Einheit</Einheit>
+      </Arbeitszeit>
+      <Schwierigkeitsgrad>Schwierigkeitsgrad</Schwierigkeitsgrad>
+      <Brennwert>
+        <Einheit>Einheit</Einheit>
+      </Brennwert>
+      <Text>Text</Text>
+    </Zubereitung>
+    <Kommentare>
+      <Titel>Titel</Titel>
+      <Kommentar>
+        <Nutzer>Nutzer</Nutzer>
+        <Avatar>Avatar</Avatar>
+        <Zeitstempel>
+          <Tag>1</Tag>
+          <Monat>1</Monat>
+          <Jahr>2001</Jahr>
+        </Zeitstempel>
+        <Text>Text</Text>
+        <Hilfreich>Hilfreich</Hilfreich>
+      </Kommentar>
+    </Kommentare>
+  </Rezept>
+</Rezepte>
