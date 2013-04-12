@@ -1,7 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Rezepte>
+<Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3c.xsd">
 	<Rezept rezept_id="1111111">
 		<Titel>Lenchen’s Schokoladenkuchen</Titel>
+		<Beschreibung></Beschreibung>
+		<Bilder>
+			<Bild>
+               	<Nummer>1</Nummer> 
+               	<Quelle>img/kuchen.png</Quelle>
+                <Titel>Foto von mrsasterix</Titel>
+            </Bild>
+        </Bilder>
+		<Zutaten portion_id="16">
+			<Zutat>
+				<Menge>200</Menge>
+				<Einheit>g</Einheit>
+				<Name>Butter</Name>
+			</Zutat>
+			<Zutat>
+				<Menge>200</Menge>
+				<Einheit>g</Einheit>
+				<Name>Zucker</Name>
+			</Zutat>
+			<Zutat>
+				<Menge>200</Menge>
+				<Einheit>g</Einheit>
+				<Name>Schokolade</Name>
+			</Zutat>
+			<Zutat>
+				<Menge>120</Menge>
+				<Einheit>g</Einheit>
+				<Name>Mehl</Name>
+			</Zutat>
+			<Zutat>
+				<Menge>0.5</Menge>
+				<Einheit>TL</Einheit>
+				<Name>Backpulver</Name>
+			</Zutat>
+			<Zutat>
+				<Menge>1</Menge>
+				<Einheit>Pkt.</Einheit>
+				<Name>Vanillezucker</Name>
+			</Zutat>
+			<Zutat>
+				<Menge>4</Menge>
+				<Einheit></Einheit>
+				<Name>Ei(er)</Name>
+			</Zutat>
+		</Zutaten>
+		<Zubereitung>
+			<Arbeitszeit>ca. 1<Einheit>Std</Einheit></Arbeitszeit>
+			<Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
+			<Brennwert>295<Einheit>kcal</Einheit></Brennwert>
+			<Text><![CDATA[Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben. 
+						   Bei 180°Grad 40 – 50 Minuten backen.]]>
+			</Text>
+		</Zubereitung>
+		<Kommentare>
+			<Titel>Kommentare anderer Nutzer</Titel>
+				<Kommentar kommentar_id="1">
+					<Nutzer>swieselchen</Nutzer>
+					<Avatar>motorad.jpeg</Avatar>
+					<Zeitstempel>
+						<Tag>07</Tag>
+						<Monat>02</Monat>
+						<Jahr>2002</Jahr>
+					</Zeitstempel>
+					<Text>
+						<![CDATA[Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade
+								 hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben)
+								 mein LAG war total begeistert. Ich übrigends auch, super Rezept.]]>
+					</Text>
+					<Hilfreich>ja</Hilfreich>
+				</Kommentar>
+		</Kommentare>
+	</Rezept>
+	<Rezept rezept_id="2">
+		<Titel>Lenchen’s Schokoladenkuchen2</Titel>
 		<Beschreibung></Beschreibung>
 		<Bilder>
 			<Bild>

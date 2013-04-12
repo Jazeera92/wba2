@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2013.04.12 um 08:45:02 PM CEST 
+// Generiert: 2013.04.12 um 10:56:49 PM CEST 
 //
 
 
@@ -31,7 +31,7 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _RezepteRezeptZubereitungBrennwertEinheit_QNAME = new QName("", "Einheit");
+    private final static QName _RezepteRezeptZubereitungArbeitszeitEinheit_QNAME = new QName("", "Einheit");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: generated
@@ -140,18 +140,18 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "Einheit", scope = Rezepte.Rezept.Zubereitung.Brennwert.class)
-    public JAXBElement<String> createRezepteRezeptZubereitungBrennwertEinheit(String value) {
-        return new JAXBElement<String>(_RezepteRezeptZubereitungBrennwertEinheit_QNAME, String.class, Rezepte.Rezept.Zubereitung.Brennwert.class, value);
+    @XmlElementDecl(namespace = "", name = "Einheit", scope = Rezepte.Rezept.Zubereitung.Arbeitszeit.class)
+    public JAXBElement<String> createRezepteRezeptZubereitungArbeitszeitEinheit(String value) {
+        return new JAXBElement<String>(_RezepteRezeptZubereitungArbeitszeitEinheit_QNAME, String.class, Rezepte.Rezept.Zubereitung.Arbeitszeit.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "Einheit", scope = Rezepte.Rezept.Zubereitung.Arbeitszeit.class)
-    public JAXBElement<String> createRezepteRezeptZubereitungArbeitszeitEinheit(String value) {
-        return new JAXBElement<String>(_RezepteRezeptZubereitungBrennwertEinheit_QNAME, String.class, Rezepte.Rezept.Zubereitung.Arbeitszeit.class, value);
+    @XmlElementDecl(namespace = "", name = "Einheit", scope = Rezepte.Rezept.Zubereitung.Brennwert.class)
+    public JAXBElement<String> createRezepteRezeptZubereitungBrennwertEinheit(String value) {
+        return new JAXBElement<String>(_RezepteRezeptZubereitungArbeitszeitEinheit_QNAME, String.class, Rezepte.Rezept.Zubereitung.Brennwert.class, value);
     }
 
 }

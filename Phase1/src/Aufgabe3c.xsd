@@ -44,7 +44,7 @@
   <xs:element name="Rezepte">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="Rezept" maxOccurs="unbounded">
+        <xs:element name="Rezept" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>	
               <xs:element type="titel" name="Titel"/>		

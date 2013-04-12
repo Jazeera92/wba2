@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3c.xsd">
-  <Rezept>
+  <Rezept rezept_id="1">
     <Titel>Friedhelms Hähnchenschenkel</Titel>
     <Beschreibung>mit Kartoffeln, Lauchzwiebeln und Zucchini</Beschreibung>
     <Bilder>
@@ -93,7 +93,7 @@
     </Zubereitung>
     <Kommentare>
       <Titel>Kommentare anderer Nutzer</Titel>
-      <Kommentar>
+      <Kommentar kommentar_id="1">
         <Nutzer>Senseless</Nutzer>
         <Avatar>img/avatar.png</Avatar>
         <Zeitstempel>

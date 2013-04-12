@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3c.xsd">
-  <Rezept>
+  <Rezept rezept_id="3">
     <Titel>Nußecken</Titel>
     <Beschreibung>str1234</Beschreibung>
     <Bilder>
@@ -89,7 +89,7 @@
     </Zubereitung>
     <Kommentare>
       <Titel>Kommentare anderer Nutzer</Titel>
-      <Kommentar>
+      <Kommentar kommentar_id="1">
         <Nutzer>wellness-line</Nutzer>
         <Avatar>img/profilbild.png</Avatar>
         <Zeitstempel>

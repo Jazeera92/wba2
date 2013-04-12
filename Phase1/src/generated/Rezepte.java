@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2013.04.12 um 08:45:02 PM CEST 
+// Generiert: 2013.04.12 um 10:56:49 PM CEST 
 //
 
 
@@ -32,7 +32,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="Rezept">
+ *         &lt;element name="Rezept" maxOccurs="unbounded">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -181,30 +181,35 @@ import javax.xml.bind.annotation.XmlType;
 public class Rezepte {
 
     @XmlElement(name = "Rezept", required = true)
-    protected Rezepte.Rezept rezept;
+    protected List<Rezepte.Rezept> rezept;
 
     /**
-     * Ruft den Wert der rezept-Eigenschaft ab.
+     * Gets the value of the rezept property.
      * 
-     * @return
-     *     possible object is
-     *     {@link Rezepte.Rezept }
-     *     
-     */
-    public Rezepte.Rezept getRezept() {
-        return rezept;
-    }
-
-    /**
-     * Legt den Wert der rezept-Eigenschaft fest.
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the rezept property.
      * 
-     * @param value
-     *     allowed object is
-     *     {@link Rezepte.Rezept }
-     *     
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getRezept().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link Rezepte.Rezept }
+     * 
+     * 
      */
-    public void setRezept(Rezepte.Rezept value) {
-        this.rezept = value;
+    public List<Rezepte.Rezept> getRezept() {
+        if (rezept == null) {
+            rezept = new ArrayList<Rezepte.Rezept>();
+        }
+        return this.rezept;
     }
 
 
@@ -1372,8 +1377,8 @@ public class Rezepte {
                  * 
                  * <p>
                  * Objects of the following type(s) are allowed in the list
-                 * {@link JAXBElement }{@code <}{@link String }{@code >}
                  * {@link String }
+                 * {@link JAXBElement }{@code <}{@link String }{@code >}
                  * 
                  * 
                  */

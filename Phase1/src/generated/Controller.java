@@ -1,4 +1,6 @@
 package generated;
+import generated.Rezepte.Rezept;
+
 import java.io.File;
 import java.util.Scanner;
 
@@ -10,31 +12,23 @@ import javax.xml.bind.Unmarshaller;
 
 
 public class Controller {
-
-	private static final Scanner sc1 = new Scanner( System.in );
 	
-	private Unmarshaller u;
-	private Marshaller m;
-	private Rezepte r;
-	
-	public Controller() {
-		try {
-            JAXBContext jc = JAXBContext.newInstance ("generated");
-            Unmarshaller u = jc.createUnmarshaller();
-            File f = new File ("Phase1/src/aufgabe3a.xml");
-            JAXBElement element = (JAXBElement) u.unmarshal (f);
-
-            r = (Rezepte) element.getValue ();
-            System.out.println(r);
-        }
-		catch(JAXBException e) {
-           e.printStackTrace ();
-	    }
+	public static void main(String[] args) throws Exception {
+      
+	  Scanner sc1 = new Scanner( System.in );
 		
+	  Unmarshaller u;
+	  Marshaller m;
+	  Rezepte r;
+	  
+	  JAXBContext jc = JAXBContext.newInstance ("generated");
+      u = jc.createUnmarshaller();
+      r = (Rezepte) u.unmarshal (new File ("src/aufgabe3a.xml"));
+           
 	
-		for(Rezepte.Rezept each : r.rezept){
-			System.out.print(each.getTitel());
-		}
+	  for (Rezept each : r.rezept) {
+		  System.out.println(each.getTitel());
+	  }
    }
 	
 }
