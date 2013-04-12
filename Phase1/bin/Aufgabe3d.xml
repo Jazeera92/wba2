@@ -78,27 +78,30 @@
       </Zutat>
     </Zutaten>
     <Zubereitung>
-      <Arbeitszeit>
-        <Einheit>str1234</Einheit>
+      <Arbeitszeit>45
+        <Einheit>Min</Einheit>
       </Arbeitszeit>
-      <Schwierigkeitsgrad>str1234</Schwierigkeitsgrad>
+      <Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
       <Brennwert>
-        <Einheit>str1234</Einheit>
+        <Einheit></Einheit>
       </Brennwert>
-      <Text>str1234</Text>
+      <Text><![CDATA[]]></Text>
     </Zubereitung>
     <Kommentare>
-      <Titel>str1234</Titel>
+      <Titel>Kommentare anderer Nutzer</Titel>
       <Kommentar>
-        <Nutzer>str1234</Nutzer>
-        <Avatar>str1234</Avatar>
+        <Nutzer>wellness-line</Nutzer>
+        <Avatar>img/profilbild.png</Avatar>
         <Zeitstempel>
           <Tag>12</Tag>
           <Monat>12</Monat>
           <Jahr>2012</Jahr>
         </Zeitstempel>
-        <Text>str1234</Text>
-        <Hilfreich>str1234</Hilfreich>
+        <Text><![CDATA[Ein absoluter Volltreffer! Ich verstehe gar nicht, warum bisher noch keine Kommentare dazu abgegeben wurden. 
+		Mit diesem Rezept legt man alle Ehre ein - auch immer gut als Geschenk in einer schönen Dose .... 
+		Nachbacken lohnt sich garantiert! Schmecken hervorragend. 
+		Mein Tipp: Ich nehme ein ganzes Glas Aprikosenmarmelade, werden dann noch saftiger!]]></Text>
+        <Hilfreich>ja</Hilfreich>
       </Kommentar>
     </Kommentare>
   </Rezept>

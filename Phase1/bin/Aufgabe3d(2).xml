@@ -1,43 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3c.xsd">
   <Rezept>
-    <Titel>Titel</Titel>
-    <Beschreibung>Beschreibung</Beschreibung>
+    <Titel>Friedhelms Hähnchenschenkel</Titel>
+    <Beschreibung>mit Kartoffeln, Lauchzwiebeln und Zucchini</Beschreibung>
     <Bilder>
       <Bild>
-        <Nummer>0</Nummer>
-        <Quelle>Quelle</Quelle>
-        <Titel>Titel</Titel>
+        <Nummer>15</Nummer>
+        <Quelle>img/pic.png</Quelle>
+        <Titel>Foto von Mammapia</Titel>
       </Bild>
     </Bilder>
-    <Zutaten portion_id="0">
+    <Zutaten portion_id="4">
       <Zutat>
-        <Menge>100</Menge>
-        <Einheit>Einheit</Einheit>
-        <Name>Name</Name>
+        <Menge>4</Menge>
+        <Einheit>große</Einheit>
+        <Name>Hähnchenschenkel</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>1.5</Menge>
+        <Einheit>kg</Einheit>
+        <Name>Kartoffel(n), vorwiegend festkochend</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>1</Menge>
+        <Einheit>Bund</Einheit>
+        <Name>Lauchzwiebel(n)</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>2</Menge>
+        <Einheit></Einheit>
+        <Name>Zwiebeln</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>2</Menge>
+        <Einheit></Einheit>
+        <Name>Knoblauchzehe(n)</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>1</Menge>
+        <Einheit>große</Einheit>
+        <Name>Zucchini</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>3</Menge>
+        <Einheit></Einheit>
+        <Name>Paprikaschote(n), greöstet</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>1</Menge>
+        <Einheit>TL, gehäuft</Einheit>
+        <Name>Rosmarin</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>1</Menge>
+        <Einheit>TL, gestr.</Einheit>
+        <Name>Thymian</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>4</Menge>
+        <Einheit>EL</Einheit>
+        <Name>Olivenöl</Name>
+      </Zutat>
+      <Zutat>
+        <Menge></Menge>
+        <Einheit></Einheit>
+        <Name>Gewürzmischung (Hähnchen-Gewürzsalz)</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>1</Menge>
+        <Einheit>TL</Einheit>
+        <Name>Salz</Name>
+      </Zutat>
+      <Zutat>
+        <Menge>4</Menge>
+        <Einheit>EL</Einheit>
+        <Name>Olivenöl</Name>
       </Zutat>
     </Zutaten>
     <Zubereitung>
-      <Arbeitszeit>
-        <Einheit>Einheit</Einheit>
+      <Arbeitszeit>20
+        <Einheit>Min</Einheit>
       </Arbeitszeit>
-      <Schwierigkeitsgrad>Schwierigkeitsgrad</Schwierigkeitsgrad>
+      <Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
       <Brennwert>
-        <Einheit>Einheit</Einheit>
+        <Einheit>Keine Angabe</Einheit>
       </Brennwert>
-      <Text>Text</Text>
+      <Text><![CDATA[Die Kartoffeln schälen, waschen und vierteln oder achteln, 10 Minuten in Salzwasser kochen. Hähnchenschenkel mit dem Gewürzsalz bestreuen. 
+					Backofen auf 200° Grad vorheizen.
+					Aus gehacktem Knoblauch, Salz, Paprikapulver, Pfeffer, Rosmarin, Thymian und Olivenöl eine Marinade herstellen und die Hähnchenschenkel damit einstreichen. 
+					Die abgegossenen Kartoffeln in einer Auflaufform mit der restlichen Marinade übergießen und mischen. Die Hähnchenschenkel auf die Kartoffeln legen und im Backofen 40 Minuten backen.
+					Während die Hähnchenschenkel im Backofen schmoren, die Lauchzwiebeln, Zucchini und Paprikaschoten in Stücke schneiden, nach Ende der Garzeit mit den Kartoffeln mischen und alles für weitere 20 Minuten in den Backofen geben.]]></Text>
     </Zubereitung>
     <Kommentare>
-      <Titel>Titel</Titel>
+      <Titel>Kommentare anderer Nutzer</Titel>
       <Kommentar>
-        <Nutzer>Nutzer</Nutzer>
-        <Avatar>Avatar</Avatar>
+        <Nutzer>Senseless</Nutzer>
+        <Avatar>img/avatar.png</Avatar>
         <Zeitstempel>
-          <Tag>1</Tag>
-          <Monat>1</Monat>
-          <Jahr>2001</Jahr>
+          <Tag>4</Tag>
+          <Monat>11</Monat>
+          <Jahr>2008</Jahr>
         </Zeitstempel>
-        <Text>Text</Text>
+        <Text><![CDATA[Hallo, 
+				Wahr sehr sehr lecker !!! 
+				Lg Sonja ]]></Text>
         <Hilfreich>Hilfreich</Hilfreich>
       </Kommentar>
     </Kommentare>
