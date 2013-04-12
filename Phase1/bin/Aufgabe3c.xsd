@@ -35,9 +35,8 @@
 
 <xs:simpleType name="schwierigkeitsgrad">
    <xs:restriction base="xs:string">
-     <xs:enumeration value="leicht"/>
-     <xs:enumeration value="mittel"/>
-     <xs:enumeration value="schwer"/>
+     <xs:enumeration value="simple"/>
+     <xs:enumeration value="normal"/>
      <xs:enumeration value="pfiffig"/>
    </xs:restriction>
  </xs:simpleType>
@@ -124,12 +123,14 @@
                           <xs:element type="xs:string" name="Text"/>
                           <xs:element type="xs:string" name="Hilfreich"/>
                         </xs:sequence>
+                        <xs:attribute type="xs:int" name="kommentar_id" use="required"/>
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
+            <xs:attribute type="xs:int" name="rezept_id" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

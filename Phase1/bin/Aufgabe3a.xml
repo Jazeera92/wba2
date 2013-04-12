@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rezepte>
-	<Rezept>
+	<Rezept rezept_id="1111111">
 		<Titel>Lenchen’s Schokoladenkuchen</Titel>
 		<Beschreibung></Beschreibung>
 		<Bilder>
@@ -57,7 +57,7 @@
 		</Zubereitung>
 		<Kommentare>
 			<Titel>Kommentare anderer Nutzer</Titel>
-				<Kommentar>
+				<Kommentar kommentar_id="1">
 					<Nutzer>swieselchen</Nutzer>
 					<Avatar>motorad.jpeg</Avatar>
 					<Zeitstempel>
