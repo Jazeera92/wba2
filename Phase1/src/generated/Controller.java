@@ -24,22 +24,63 @@ public class Controller {
       u = jc.createUnmarshaller();
       r = (Rezepte) u.unmarshal (new File ("src/aufgabe3a.xml"));
       
-      menu();    
-      int x = menu();
+          
       
-	  do {
+      int x = menu(); 
+      while (x > 0){
+    	  
 		  switch (x) {
 		  	case 0:
 				System.out.println( "\nProgramm wurde beendet." );
 				break;
 		    case 1:  
 		  		for (Rezept each : r.rezept) {
-				System.out.println(each.getTitel());
-				  
+		  			System.out.println("-------------------");
+		  			System.out.print(each.getTitel());
+		  			System.out.print(" | Rezept ID "+each.getRezeptId());
+		  			System.out.println();
+		  			System.out.println("-------------------");
 				}
 		  		break;
+		    case 2:
+		    	System.out.println("Bitte geben sie die Rezept ID ein");
+		    	System.out.print("Eingabe: ");
+				int f = sc1.nextInt();
+		    	for (Rezept each : r.rezept) {
+		    		if(each.getRezeptId() == f) {
+		    			System.out.println("-------------------");
+			  			System.out.println(each.getTitel());
+			  			System.out.println("...................");
+			  			System.out.println(each.getBeschreibung());
+			  			System.out.println(each.getBilder().getBild());
+			  			System.out.println("...................");
+			  			for (Rezept.Zutaten.Zutat var:each.zutaten.zutat) {
+			  				System.out.println(each.getZutaten().getZutat());
+			  			}	
+			  			System.out.println("...................");
+			  			System.out.println(each.getZubereitung().getArbeitszeit());
+			  			System.out.println(each.getZubereitung().getSchwierigkeitsgrad().getDeclaringClass());
+			  			System.out.println(each.getZubereitung().getBrennwert());
+			  			System.out.println("...................");
+			  			System.out.println(each.getKommentare().getKommentar());
+			  			System.out.println("-------------------");
+		    			break;
+		    		}
+		    		else 
+		    			System.out.println("-------------------");
+		    			System.out.println("Das Rezept ist leider nicht vorhanden!");
+		    			System.out.println("-------------------");
+		    		break;
+				}
+		    	break;
+		    
+		    case 3:
+		    	break;
+		  	
+		    	
 		  }
-	  }while (x > 0);
+		  x = menu();
+	  }
 }
 	  
    

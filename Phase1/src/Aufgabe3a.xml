@@ -76,7 +76,7 @@
 	</Rezept>
 	<Rezept rezept_id="3">
     <Titel>Nußecken</Titel>
-    <Beschreibung>str1234</Beschreibung>
+    <Beschreibung></Beschreibung>
     <Bilder>
       <Bild>
         <Nummer>150</Nummer>
