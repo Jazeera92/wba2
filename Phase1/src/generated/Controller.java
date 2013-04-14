@@ -52,17 +52,33 @@ public class Controller {
 			  			System.out.println(each.getTitel());
 			  			System.out.println("...................");
 			  			System.out.println(each.getBeschreibung());
-			  			System.out.println(each.getBilder().getBild());
+			  			for (Rezept.Bilder.Bild pic :each.bilder.bild) {
+			  				System.out.print(pic.getNummer()+" ");
+			  				System.out.println(pic.getQuelle()+" ");
+			  				System.out.println(pic.getTitel()+" ");
+			  				System.out.println("");
+			  			}
 			  			System.out.println("...................");
-			  			for (Rezept.Zutaten.Zutat var:each.zutaten.zutat) {
-			  				System.out.println(each.getZutaten().getZutat());
-			  			}	
+			  			System.out.println("Zutaten");
 			  			System.out.println("...................");
-			  			System.out.println(each.getZubereitung().getArbeitszeit());
-			  			System.out.println(each.getZubereitung().getSchwierigkeitsgrad().getDeclaringClass());
-			  			System.out.println(each.getZubereitung().getBrennwert());
+			  			for (Rezept.Zutaten.Zutat var :each.zutaten.zutat) {
+			  				System.out.print(var.getMenge()+" ");
+			  				System.out.print(var.getEinheit()+" ");
+			  				System.out.print(var.getName()+" ");
+			  				System.out.println("");
+			  			}
 			  			System.out.println("...................");
-			  			System.out.println(each.getKommentare().getKommentar());
+			  			System.out.println("Zubereitung");
+			  			System.out.println("...................");
+			  			//for (Rezept.Zubereitung v :each.zubereitung) {
+			  			//	System.out.println(v.getArbeitszeit()+"");
+			  			//	System.out.println(v.()+"");
+			  			//}	
+			  			
+			  			System.out.println("...................");
+			  			for (Rezept.Kommentare.Kommentar v :each.kommentare.kommentar) {
+			  				System.out.println(v.getAvatar()+"");
+			  			}
 			  			System.out.println("-------------------");
 		    			break;
 		    		}

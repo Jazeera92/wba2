@@ -76,7 +76,7 @@
 	</Rezept>
 	<Rezept rezept_id="3">
     <Titel>Nußecken</Titel>
-    <Beschreibung></Beschreibung>
+    <Beschreibung>Leckere Nussecken</Beschreibung>
     <Bilder>
       <Bild>
         <Nummer>150</Nummer>
@@ -176,6 +176,17 @@
 		Nachbacken lohnt sich garantiert! Schmecken hervorragend. 
 		Mein Tipp: Ich nehme ein ganzes Glas Aprikosenmarmelade, werden dann noch saftiger!]]></Text>
         <Hilfreich>ja</Hilfreich>
+      </Kommentar>
+      <Kommentar kommentar_id="3">
+        <Nutzer>Mane</Nutzer>
+        <Avatar>img/profilbild.png</Avatar>
+        <Zeitstempel>
+          <Tag>07</Tag>
+          <Monat>02</Monat>
+          <Jahr>2003</Jahr>
+        </Zeitstempel>
+        <Text><![CDATA[Habe ihn eben gebacken und bin begeistert.Super Rezept:-) LG Mane]]></Text>
+        <Hilfreich>Nein</Hilfreich>
       </Kommentar>
     </Kommentare>
   </Rezept>
