@@ -2,22 +2,18 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2013.04.12 um 10:56:49 PM CEST 
+// Generiert: 2013.04.15 um 01:57:35 AM CEST 
 //
 
 
 package generated;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementRef;
-import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -32,7 +28,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="Rezept" maxOccurs="unbounded">
+ *         &lt;element name="Rezept" maxOccurs="unbounded" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -96,6 +92,7 @@ import javax.xml.bind.annotation.XmlType;
  *                                 &lt;complexContent>
  *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                                     &lt;sequence>
+ *                                       &lt;element name="zeit" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                                       &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                                     &lt;/sequence>
  *                                   &lt;/restriction>
@@ -108,6 +105,7 @@ import javax.xml.bind.annotation.XmlType;
  *                                 &lt;complexContent>
  *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                                     &lt;sequence>
+ *                                       &lt;element name="wert" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                                       &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                                     &lt;/sequence>
  *                                   &lt;/restriction>
@@ -126,7 +124,7 @@ import javax.xml.bind.annotation.XmlType;
  *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                           &lt;sequence>
  *                             &lt;element name="Titel" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                             &lt;element name="Kommentar">
+ *                             &lt;element name="Kommentar" maxOccurs="unbounded">
  *                               &lt;complexType>
  *                                 &lt;complexContent>
  *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -180,7 +178,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "Rezepte")
 public class Rezepte {
 
-    @XmlElement(name = "Rezept", required = true)
+    @XmlElement(name = "Rezept")
     protected List<Rezepte.Rezept> rezept;
 
     /**
@@ -282,6 +280,7 @@ public class Rezepte {
      *                       &lt;complexContent>
      *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *                           &lt;sequence>
+     *                             &lt;element name="zeit" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                             &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                           &lt;/sequence>
      *                         &lt;/restriction>
@@ -294,6 +293,7 @@ public class Rezepte {
      *                       &lt;complexContent>
      *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *                           &lt;sequence>
+     *                             &lt;element name="wert" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                             &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *                           &lt;/sequence>
      *                         &lt;/restriction>
@@ -312,7 +312,7 @@ public class Rezepte {
      *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *                 &lt;sequence>
      *                   &lt;element name="Titel" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                   &lt;element name="Kommentar">
+     *                   &lt;element name="Kommentar" maxOccurs="unbounded">
      *                     &lt;complexType>
      *                       &lt;complexContent>
      *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -727,7 +727,7 @@ public class Rezepte {
          *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
          *       &lt;sequence>
          *         &lt;element name="Titel" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *         &lt;element name="Kommentar">
+         *         &lt;element name="Kommentar" maxOccurs="unbounded">
          *           &lt;complexType>
          *             &lt;complexContent>
          *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
@@ -773,7 +773,7 @@ public class Rezepte {
             @XmlElement(name = "Titel", required = true)
             protected String titel;
             @XmlElement(name = "Kommentar", required = true)
-            protected Rezepte.Rezept.Kommentare.Kommentar kommentar;
+            protected List<Rezepte.Rezept.Kommentare.Kommentar> kommentar;
 
             /**
              * Ruft den Wert der titel-Eigenschaft ab.
@@ -800,27 +800,32 @@ public class Rezepte {
             }
 
             /**
-             * Ruft den Wert der kommentar-Eigenschaft ab.
+             * Gets the value of the kommentar property.
              * 
-             * @return
-             *     possible object is
-             *     {@link Rezepte.Rezept.Kommentare.Kommentar }
-             *     
-             */
-            public Rezepte.Rezept.Kommentare.Kommentar getKommentar() {
-                return kommentar;
-            }
-
-            /**
-             * Legt den Wert der kommentar-Eigenschaft fest.
+             * <p>
+             * This accessor method returns a reference to the live list,
+             * not a snapshot. Therefore any modification you make to the
+             * returned list will be present inside the JAXB object.
+             * This is why there is not a <CODE>set</CODE> method for the kommentar property.
              * 
-             * @param value
-             *     allowed object is
-             *     {@link Rezepte.Rezept.Kommentare.Kommentar }
-             *     
+             * <p>
+             * For example, to add a new item, do as follows:
+             * <pre>
+             *    getKommentar().add(newItem);
+             * </pre>
+             * 
+             * 
+             * <p>
+             * Objects of the following type(s) are allowed in the list
+             * {@link Rezepte.Rezept.Kommentare.Kommentar }
+             * 
+             * 
              */
-            public void setKommentar(Rezepte.Rezept.Kommentare.Kommentar value) {
-                this.kommentar = value;
+            public List<Rezepte.Rezept.Kommentare.Kommentar> getKommentar() {
+                if (kommentar == null) {
+                    kommentar = new ArrayList<Rezepte.Rezept.Kommentare.Kommentar>();
+                }
+                return this.kommentar;
             }
 
 
@@ -1126,6 +1131,7 @@ public class Rezepte {
          *             &lt;complexContent>
          *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
          *                 &lt;sequence>
+         *                   &lt;element name="zeit" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *                   &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *                 &lt;/sequence>
          *               &lt;/restriction>
@@ -1138,6 +1144,7 @@ public class Rezepte {
          *             &lt;complexContent>
          *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
          *                 &lt;sequence>
+         *                   &lt;element name="wert" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *                   &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
          *                 &lt;/sequence>
          *               &lt;/restriction>
@@ -1278,6 +1285,7 @@ public class Rezepte {
              *   &lt;complexContent>
              *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
              *       &lt;sequence>
+             *         &lt;element name="zeit" type="{http://www.w3.org/2001/XMLSchema}string"/>
              *         &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
              *       &lt;/sequence>
              *     &lt;/restriction>
@@ -1289,42 +1297,62 @@ public class Rezepte {
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "content"
+                "zeit",
+                "einheit"
             })
             public static class Arbeitszeit {
 
-                @XmlElementRef(name = "Einheit", type = JAXBElement.class)
-                @XmlMixed
-                protected List<Serializable> content;
+                @XmlElement(required = true)
+                protected String zeit;
+                @XmlElement(name = "Einheit", required = true)
+                protected String einheit;
 
                 /**
-                 * Gets the value of the content property.
+                 * Ruft den Wert der zeit-Eigenschaft ab.
                  * 
-                 * <p>
-                 * This accessor method returns a reference to the live list,
-                 * not a snapshot. Therefore any modification you make to the
-                 * returned list will be present inside the JAXB object.
-                 * This is why there is not a <CODE>set</CODE> method for the content property.
-                 * 
-                 * <p>
-                 * For example, to add a new item, do as follows:
-                 * <pre>
-                 *    getContent().add(newItem);
-                 * </pre>
-                 * 
-                 * 
-                 * <p>
-                 * Objects of the following type(s) are allowed in the list
-                 * {@link String }
-                 * {@link JAXBElement }{@code <}{@link String }{@code >}
-                 * 
-                 * 
+                 * @return
+                 *     possible object is
+                 *     {@link String }
+                 *     
                  */
-                public List<Serializable> getContent() {
-                    if (content == null) {
-                        content = new ArrayList<Serializable>();
-                    }
-                    return this.content;
+                public String getZeit() {
+                    return zeit;
+                }
+
+                /**
+                 * Legt den Wert der zeit-Eigenschaft fest.
+                 * 
+                 * @param value
+                 *     allowed object is
+                 *     {@link String }
+                 *     
+                 */
+                public void setZeit(String value) {
+                    this.zeit = value;
+                }
+
+                /**
+                 * Ruft den Wert der einheit-Eigenschaft ab.
+                 * 
+                 * @return
+                 *     possible object is
+                 *     {@link String }
+                 *     
+                 */
+                public String getEinheit() {
+                    return einheit;
+                }
+
+                /**
+                 * Legt den Wert der einheit-Eigenschaft fest.
+                 * 
+                 * @param value
+                 *     allowed object is
+                 *     {@link String }
+                 *     
+                 */
+                public void setEinheit(String value) {
+                    this.einheit = value;
                 }
 
             }
@@ -1340,6 +1368,7 @@ public class Rezepte {
              *   &lt;complexContent>
              *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
              *       &lt;sequence>
+             *         &lt;element name="wert" type="{http://www.w3.org/2001/XMLSchema}string"/>
              *         &lt;element name="Einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
              *       &lt;/sequence>
              *     &lt;/restriction>
@@ -1351,42 +1380,62 @@ public class Rezepte {
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "content"
+                "wert",
+                "einheit"
             })
             public static class Brennwert {
 
-                @XmlElementRef(name = "Einheit", type = JAXBElement.class)
-                @XmlMixed
-                protected List<Serializable> content;
+                @XmlElement(required = true)
+                protected String wert;
+                @XmlElement(name = "Einheit", required = true)
+                protected String einheit;
 
                 /**
-                 * Gets the value of the content property.
+                 * Ruft den Wert der wert-Eigenschaft ab.
                  * 
-                 * <p>
-                 * This accessor method returns a reference to the live list,
-                 * not a snapshot. Therefore any modification you make to the
-                 * returned list will be present inside the JAXB object.
-                 * This is why there is not a <CODE>set</CODE> method for the content property.
-                 * 
-                 * <p>
-                 * For example, to add a new item, do as follows:
-                 * <pre>
-                 *    getContent().add(newItem);
-                 * </pre>
-                 * 
-                 * 
-                 * <p>
-                 * Objects of the following type(s) are allowed in the list
-                 * {@link String }
-                 * {@link JAXBElement }{@code <}{@link String }{@code >}
-                 * 
-                 * 
+                 * @return
+                 *     possible object is
+                 *     {@link String }
+                 *     
                  */
-                public List<Serializable> getContent() {
-                    if (content == null) {
-                        content = new ArrayList<Serializable>();
-                    }
-                    return this.content;
+                public String getWert() {
+                    return wert;
+                }
+
+                /**
+                 * Legt den Wert der wert-Eigenschaft fest.
+                 * 
+                 * @param value
+                 *     allowed object is
+                 *     {@link String }
+                 *     
+                 */
+                public void setWert(String value) {
+                    this.wert = value;
+                }
+
+                /**
+                 * Ruft den Wert der einheit-Eigenschaft ab.
+                 * 
+                 * @return
+                 *     possible object is
+                 *     {@link String }
+                 *     
+                 */
+                public String getEinheit() {
+                    return einheit;
+                }
+
+                /**
+                 * Legt den Wert der einheit-Eigenschaft fest.
+                 * 
+                 * @param value
+                 *     allowed object is
+                 *     {@link String }
+                 *     
+                 */
+                public void setEinheit(String value) {
+                    this.einheit = value;
                 }
 
             }

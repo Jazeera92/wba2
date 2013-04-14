@@ -48,11 +48,13 @@
 			</Zutat>
 		</Zutaten>
 		<Zubereitung>
-			<Arbeitszeit>ca. 1<Einheit>Std</Einheit></Arbeitszeit>
+			<Arbeitszeit><zeit>ca. 1</zeit><Einheit>Std</Einheit></Arbeitszeit>
 			<Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
-			<Brennwert>295<Einheit>kcal</Einheit></Brennwert>
-			<Text><![CDATA[Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben. 
-						   Bei 180°Grad 40 – 50 Minuten backen.]]>
+			<Brennwert><wert>295</wert><Einheit>kcal</Einheit></Brennwert>
+			<Text><![CDATA[Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker 
+und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben 
+und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben. 
+Bei 180°Grad 40 – 50 Minuten backen.]]>
 			</Text>
 		</Zubereitung>
 		<Kommentare>
@@ -65,16 +67,15 @@
 						<Monat>02</Monat>
 						<Jahr>2002</Jahr>
 					</Zeitstempel>
-					<Text>
-						<![CDATA[Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade
-								 hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben)
-								 mein LAG war total begeistert. Ich übrigends auch, super Rezept.]]>
+					<Text><![CDATA[Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade
+hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben)
+mein LAG war total begeistert. Ich übrigends auch, super Rezept.]]>
 					</Text>
 					<Hilfreich>ja</Hilfreich>
 				</Kommentar>
 		</Kommentare>
 	</Rezept>
-	<Rezept rezept_id="3">
+	<Rezept rezept_id="2">
     <Titel>Nußecken</Titel>
     <Beschreibung>Leckere Nussecken</Beschreibung>
     <Bilder>
@@ -106,7 +107,7 @@
         <Name>Backpulver</Name>
       </Zutat>
       <Zutat>
-        <Menge></Menge>
+        <Menge>1</Menge>
         <Einheit></Einheit>
         <Name>Für den Belag</Name>
       </Zutat>
@@ -146,18 +147,20 @@
         <Name>Wasser</Name>
       </Zutat>
       <Zutat>
-        <Menge></Menge>
+        <Menge>3</Menge>
         <Einheit></Einheit>
         <Name>Kuchenglasur, Schokolade</Name>
       </Zutat>
     </Zutaten>
     <Zubereitung>
-      <Arbeitszeit>45
+      <Arbeitszeit>
+      	<zeit>45</zeit>
         <Einheit>Min</Einheit>
       </Arbeitszeit>
       <Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
       <Brennwert>
-        <Einheit></Einheit>
+        <wert>990</wert>
+        <Einheit>kcal</Einheit>
       </Brennwert>
       <Text><![CDATA[]]></Text>
     </Zubereitung>
@@ -172,9 +175,9 @@
           <Jahr>2012</Jahr>
         </Zeitstempel>
         <Text><![CDATA[Ein absoluter Volltreffer! Ich verstehe gar nicht, warum bisher noch keine Kommentare dazu abgegeben wurden. 
-		Mit diesem Rezept legt man alle Ehre ein - auch immer gut als Geschenk in einer schönen Dose .... 
-		Nachbacken lohnt sich garantiert! Schmecken hervorragend. 
-		Mein Tipp: Ich nehme ein ganzes Glas Aprikosenmarmelade, werden dann noch saftiger!]]></Text>
+Mit diesem Rezept legt man alle Ehre ein - auch immer gut als Geschenk in einer schönen Dose .... 
+Nachbacken lohnt sich garantiert! Schmecken hervorragend. 
+Mein Tipp: Ich nehme ein ganzes Glas Aprikosenmarmelade, werden dann noch saftiger!]]></Text>
         <Hilfreich>ja</Hilfreich>
       </Kommentar>
       <Kommentar kommentar_id="3">
