@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.example.com" xmlns:user="www.example.com">
+
+  <xs:element name="benutzerliste" type="user:ulist"/>
+
+  <xs:complexType name="ulist">
+    <xs:sequence>
+      <xs:element name="benutzer" type="user:userdata" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="userdata">
+    <xs:sequence>
+      <xs:element name="userpublic" type="user:userdataPublic"/>
+      <xs:element name="userprivate" type="user:userdataPrivate"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="userdataPublic">
+    <xs:sequence>
+      <xs:element name="username" type="xs:string"/>
+      <xs:element name="email" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="userdataPrivate">
+    <xs:sequence>
+      <xs:element name="password" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+</xs:schema>
