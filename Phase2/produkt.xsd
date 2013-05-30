@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.example.com/prd" xmlns:prd="www.example.com/prd">
+  
+  <xs:element name="products" type="prd:produkte"/>
+  
+  <xs:complexType name="produkte">
+    <xs:sequence>
+      <xs:element name="product" type="prd:produkt"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="produkt">
+    <xs:sequence>
+              <xs:element name="bezeichnugn" type="xs:string"/>
+              <xs:element name="marke" type="xs:string"/>
+              <xs:element name="preis" type="xs:float"/>
+              <xs:element name="barcode" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>
+
+
+

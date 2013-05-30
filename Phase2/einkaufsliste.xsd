@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.example.com/list" xmlns:list="www.example.com/list" xmlns:fs="www.example.com">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.example.com/list" xmlns:list="www.example.com/list" xmlns:fs="www.example.com" xmlns:pr="www.example.com/prd">
   <xs:import namespace="www.example.com" schemaLocation="user.xsd"/>
+  <xs:import namespace="www.example.com/prd" schemaLocation="produkt.xsd"/>
+  
 
   <xs:simpleType name="minstring">
     <xs:restriction base="xs:string">
@@ -39,10 +41,7 @@
 
   <xs:complexType name="listeneintrag">
     <xs:sequence>
-      <xs:element name="produkt" type="xs:string"/>
-      <xs:element name="marke" type="xs:string"/>
-      <xs:element name="anzahl" type="xs:int"/>
-      <xs:element name="preis" type="xs:string"/>
+    <xs:element name="produkt" type="pr:produkt"/>
     </xs:sequence>
   </xs:complexType>  
 
